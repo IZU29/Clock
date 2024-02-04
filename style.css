@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+#time-box{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    width: 40%;
+    height: 160px;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#time-box p{
+    font-size: 100px;
+}
+#minutes{
+    height: 100px;
+    width: 20%;
+    border: 1px solid black;
+    font-size: 100px;
+    font-family: helvetica;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#seconds{
+    height: 100px;
+    width: 20%;
+    border: 1px solid black;
+    font-size: 100px;
+    font-family: helvetica;
+    text-shadow: 2px 2px 4px #000000
+}
+#hours{
+    height: 100px;
+    width: 20%;
+    border: 1px solid black;
+    font-size: 100px;
+    font-family: helvetica;
+    text-shadow: 2px 2px 4px #000000;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
